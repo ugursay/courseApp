@@ -1,0 +1,38 @@
+.games-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 20px;
+}
+
+.game {
+  width: 350px;
+  height: 180px;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.game-title {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+}
+
+.game-description {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: bold;
+  font-size: 12px;
+  margin: 5px;
+}
+
+.game-price {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: right;
+  padding-right: 20px;
+}
+
+.game-link {
+  font-size: 14px;
+  text-align: right;
+}
